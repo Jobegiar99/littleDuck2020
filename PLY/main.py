@@ -68,7 +68,7 @@ r
 o
 g
 r
-@
+o
 m
 """
 myLexer = myL()
