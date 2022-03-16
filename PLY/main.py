@@ -77,4 +77,4 @@ tests = [test_valid_1,test_valid_2,test_valid_3,test_invalid_1,test_invalid_2]
 for test in tests:
 	if myLexer.testInput(test):
 		if myY(myLexer.tokens).testInput(test):
-			print("Todo bien 👍")
+			print("*" * 5,"No errors 👍","*" * 5)
