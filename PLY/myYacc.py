@@ -181,6 +181,7 @@ class MyYacc:
         while True:
             result = self.parser.parse(input)
             if result == None:
+                return False
                 break
             print('-'*6,"STRING VERSION: ",'-'*6,"\n",self.resultToString(result))
             print('-'*6,"ARRAY VERSION: ",'-'*6,"\n",result)
